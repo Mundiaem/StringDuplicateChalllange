@@ -15,10 +15,10 @@ public class Main {
             currentChar = sCharArray[i];
             String currentLetter = String.valueOf(currentChar);
             contains = s.contains(currentLetter + currentLetter);
-            System.out.println(contains);
+//            System.out.println(contains);
             if (contains) {
                 s = removeDuplicate(s.replace(currentLetter + currentLetter, ""));;
-                System.out.println("After replacing " + s);
+//                System.out.println("After replacing " + s);
             }
 
         }
